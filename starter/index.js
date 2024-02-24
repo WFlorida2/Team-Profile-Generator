@@ -43,5 +43,30 @@ const promptManager = async () => {
     console.log("Manager added to the team:", manager);
     console.log("Current team:", team);
 };
-// Call the function to start prompting for manager information
-promptManager();
+
+const promptEmployee = async () => {
+    const { userChoice } = await inquirer.prompt([
+        {
+            type: "list",
+            message: "Who would you like to add to the team?",
+            name: "userChoice",
+            choices: ["Add an Engineer", "Add an Intern", "Finish building the team"]
+        }
+    ]);
+    if (userChoice === "Engineer") {
+        await promptEngineer();
+    } else if (userChoice === "Intern") {
+        await promptIntern();
+    } else {
+        generateHTML();
+    }
+};
+
+// init() function is responsible for initializing the program
+const init = async () => {
+    console.log("Please enter manager details:");
+    await promptManager();
+    await promptEmployee();
+};
+
+init();
