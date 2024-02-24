@@ -1,0 +1,82 @@
+/* Adding these styles to style.css file */
+
+.team-heading {
+    background-color:rgb(238, 208, 133);
+    box-shadow: 2px 2px 6px 0 #000;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:#43511b;
+    padding: 10px;
+}
+
+.employee-card {
+    box-shadow: 2px 2px 6px 0 #000;
+    margin: 10px; /* Adding some margin to space out the cards */
+    height: 400px; /* Set a fixed height for the cards */
+    width: 300px; /* Set a fixed width for the cards */
+    overflow: hidden; /* Hide overflowing content */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.card-header {
+    height: 40%; /* Adjust height of card header */
+    background-color: #8A9A5B; /* Background color for card header */
+    color: shadow; /* Text color for card header */
+    box-shadow: 2px 2px 6px 0 #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-body {
+    height: 20%; /* To adjust height of card body */
+    background-color: #43511b; /* Background color for card body */
+    color: shadow; /* Text color for card body */
+    box-shadow: 2px 2px 6px 0 #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 10px; /* Adding padding to the card body */
+}
+
+.list-group-item {
+    margin-bottom: 5px; /* Adding margin between each list item */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color:rgb(238, 208, 133); /* Background color for card header */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 2px 2px 60px 0 #000;
+}
+
+/* Responsive styles for smaller screens */
+@media (min-width: 576px) {
+    .input-container,
+    .image-container {
+    width: 100%;
+    }
+}
+
