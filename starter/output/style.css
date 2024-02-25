@@ -1,82 +1,87 @@
 /* Adding these styles to style.css file */
 
+/* Styling for team heading */
 .team-heading {
-    background-color:rgb(238, 208, 133);
-    box-shadow: 2px 2px 6px 0 #000;
-    overflow: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    color:#43511b;
-    padding: 10px;
-}
-
-.employee-card {
-    box-shadow: 2px 2px 6px 0 #000;
-    margin: 10px; /* Adding some margin to space out the cards */
-    height: 400px; /* Set a fixed height for the cards */
-    width: 300px; /* Set a fixed width for the cards */
+    background-color:rgb(238, 208, 133); /* Background color */
+    box-shadow: 2px 2px 6px 0 #000; /* Shadow effect */
     overflow: hidden; /* Hide overflowing content */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Font family */
+    font-size: 16px; /* Font size */
+    color:#43511b; /* Text color */
+    padding: 10px; /* Padding */
 }
 
+/* Styling for employee cards */
+.employee-card {
+    box-shadow: 2px 2px 6px 0 #000; /* Shadow effect */
+    margin: 10px; /* Margin */
+    height: 400px; /* Fixed height */
+    width: 300px; /* Fixed width */
+    overflow: hidden; /* Hide overflowing content */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Font family */
+    font-size: 16px; /* Font size */
+}
+
+/* Styling for card header */
 .card-header {
-    height: 40%; /* Adjust height of card header */
-    background-color: #8A9A5B; /* Background color for card header */
-    color: shadow; /* Text color for card header */
-    box-shadow: 2px 2px 6px 0 #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    font-weight: bold;
+    height: 40%; /* Height */
+    background-color: #8A9A5B; /* Background color */
+    color: shadow; /* Text color */
+    box-shadow: 2px 2px 6px 0 #000; /* Shadow effect */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Font family */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
 }
 
+/* Styling for card body */
 .card-body {
-    height: 20%; /* To adjust height of card body */
-    background-color: #43511b; /* Background color for card body */
-    color: shadow; /* Text color for card body */
-    box-shadow: 2px 2px 6px 0 #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    font-weight: bold;
+    height: 20%; /* Height */
+    background-color: #43511b; /* Background color */
+    color: shadow; /* Text color */
+    box-shadow: 2px 2px 6px 0 #000; /* Shadow effect */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Font family */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    padding: 10px; /* Padding */
 }
 
-.card-body {
-    padding: 10px; /* Adding padding to the card body */
-}
-
+/* Styling for list items */
 .list-group-item {
-    margin-bottom: 5px; /* Adding margin between each list item */
+    margin-bottom: 5px; /* Margin between list items */
 }
 
+/* Resetting default styles for HTML and body */
 html,
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    height: 100%; /* Full height */
+    margin: 0; /* Resetting margin */
+    padding: 0; /* Resetting padding */
 }
 
+/* Flexbox styles for wrapper */
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+    display: flex; /* Flex container */
+    flex-direction: column; /* Column layout */
+    min-height: 100%; /* Minimum height */
 }
 
+/* Styling for content section */
 .content {
-    flex: 1;
+    flex: 1; /* Flex grow */
 }
 
+/* Styling for footer */
 footer {
-    background-color:rgb(238, 208, 133); /* Background color for card header */
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 2px 2px 60px 0 #000;
+    background-color:rgb(238, 208, 133); /* Background color */
+    padding: 20px 0; /* Padding */
+    text-align: center; /* Text alignment */
+    box-shadow: 2px 2px 60px 0 #000; /* Shadow effect */
 }
 
 /* Responsive styles for smaller screens */
 @media (min-width: 576px) {
     .input-container,
     .image-container {
-    width: 100%;
+    width: 100%; /* Full width */
     }
 }
-

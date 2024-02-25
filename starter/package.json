@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/WFlorida2/Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.6"
+    "inquirer": "^8.2.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
