@@ -31,8 +31,12 @@ W3School
 • As a developer who wishes to access the back-end files for this page, you will need to access GitHub to be able to open the repo via the following link: " https://github.com/WFlorida2/Team-Profile-Generator "
 * fork / clone the files and run from your machine
 
+#### End results Walkthough Video:
 
-#### End results:
+https://www.capcut.com/s/Cbiu5-nYJk0HUC4V/
+
+#### End results images:
+
 ![End product1](assets/images/endResult.png) 
 ![End product2](assets/images/endResult2.png)
 ![End product3](assets/images/testResults.png)
