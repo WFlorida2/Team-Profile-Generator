@@ -34,6 +34,9 @@ W3School
 #### End results Walkthough Video:
 
 
+https://github.com/WFlorida2/Team-Profile-Generator/assets/34221493/c8dca315-ad91-4e93-ba65-0ea282d63efd
+
+
 #### End results images:
 
 ![End product1](starter/assets/images/endResult.png)
