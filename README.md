@@ -35,6 +35,9 @@ W3School
 
 https://www.capcut.com/s/Cbiu5-nYJk0HUC4V/
 
+starter/assets/video/TEAM PROFILE GENERATOR.mp4
+
+
 #### End results images:
 
 ![End product1](starter/assets/images/endResult.png)
