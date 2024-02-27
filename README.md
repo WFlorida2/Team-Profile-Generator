@@ -37,6 +37,6 @@ https://www.capcut.com/s/Cbiu5-nYJk0HUC4V/
 
 #### End results images:
 
-![End product1](assets/images/endResult.png) 
-![End product2](assets/images/endResult2.png)
-![End product3](assets/images/testResults.png)
+![End product1](starter/assets/images/endResult.png)
+![End product2](starter/assets/images/endResult2.png)
+![End product3](starter/assets/images/testResults.png)
